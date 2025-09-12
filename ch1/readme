@@ -1,0 +1,21 @@
+for a currency… its needs 
+
+1. longevity, its value does degrade by time
+2. scarcity, it has has to be rare, hard to obtain from anywhere easily
+
+block chain
+
+letting everyone know
+
+gossip protocol
+
+consensus, to keep only one version of ledger valid
+
+Decentralization 
+Distributed Ledger:
+This is the shared, electronic database where all transactions are recorded. Each block in the chain contains data, a timestamp, and a unique cryptographic hash of the preceding block, linking them together chronologically.
+Cryptography:
+It's used to secure the data within the blockchain.
+Hashing: Creates unique codes for each block, acting as a digital fingerprint. If any data within a block is altered, its hash changes, and the link in the chain is broken, revealing tampering.
+Public-Private Keys: Used to verify the authenticity of transactions and participants.
+Consensus Mechanism:

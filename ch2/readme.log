@@ -1,0 +1,31 @@
+## CAP theorem
+
+1. consistency: all nodes see the same data at the same time
+2. availability: every request receives a response about whether it was successful or failed
+3. partitioning: the system continues to operate despite network partitions
+
+you can only have two of the three at the same time.
+
+## blockchain trilemma
+
+1. decentralization
+2. security
+3. scalability
+
+## define blockchain
+
+1. p2p
+    Gossip Protocols / Epidemic Protocols
+    Routing Protocols, Flooding Protocols
+2. distributed ledger
+   Blockchain, Directed Acyclic Graph (DAG)
+3. cryptographically secure
+Asymmetric Cryptography, Digital Signature, Hash Function
+
+4. Append-Only
+5. update via consensus
+
+
+layers
+
+1.

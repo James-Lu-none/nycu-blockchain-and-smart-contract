@@ -11,9 +11,9 @@ cp ./javaWrapper/ethSC/Message.java ./messageAppUpdated/src/ethSC
 ## Implement MessageHandler
 ## Compile
 cd ./messageAppUpdated
-javac -d bin -cp "/home/user/workspace/temp/bankAppUpdated/lib/web3j-cli-1.7.0-all.jar" src/**/*.java
+javac -d bin -cp "./lib/web3j-cli-1.7.0-all.jar" src/**/*.java
 ## Run with geth node running
-java -cp "bin:/home/user/workspace/temp/bankAppUpdated/lib/web3j-cli-1.7.0-all.jar" messageApp.Messenger
+java -cp "bin:./lib/web3j-cli-1.7.0-all.jar" messageApp.Messenger
 
 
 # bank

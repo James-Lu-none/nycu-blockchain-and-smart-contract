@@ -1,6 +1,12 @@
 package ethSC;
 
+import org.web3j.protocol.Web3j;
+import org.web3j.protocol.ipc.UnixIpcService;
 import org.web3j.crypto.Credentials;
+import org.web3j.crypto.WalletUtils;
+import org.web3j.tx.TransactionManager;
+import org.web3j.tx.RawTransactionManager;
+import org.web3j.tx.gas.ContractGasProvider;
 
 public class MessageHandler {
 	private Web3j web3;
